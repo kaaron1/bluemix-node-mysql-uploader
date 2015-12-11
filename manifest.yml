@@ -1,8 +1,8 @@
 ---
 declared-services:
   mysql-node-upload: #A declared service is needed for one click deployment. See https://www.ng.bluemix.net/docs/manageapps/deployingapps.html#deploy_button
-    label: mysql  #As of Dec 11, 2015 this was the marketplace label.
-    plan: 100  #As of Dec 11, 2015 this was the marketplace plan.
+    label: mysql  #As of Dec 11, 2015 this was the marketplace label
+    plan: 100  #As of Dec 11, 2015 this was the marketplace plan
     
 applications: #Reference http://docs.cloudfoundry.com/docs/using/deploying-apps/manifest.html
 - name: NodeMySQLUpload #Application Name. Unique to the user's Space
@@ -17,5 +17,5 @@ applications: #Reference http://docs.cloudfoundry.com/docs/using/deploying-apps/
   - mysql-node-upload: #Identifier for CompaniesTextAnalyticsService Bound Service instance
       label: mysql
       provider: core
-      version: '5.5'
-      plan: '100'
+      version: 5.5
+      plan: 100
