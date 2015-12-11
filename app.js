@@ -138,3 +138,11 @@ function deletePosts(cb) {
 function isNotEmpty(str) {
   return str && str.trim().length > 0;
 }
+
+/**
+ * Add deploy tracker client
+ */
+require("cf-deployment-tracker-client").track();
+
+
+

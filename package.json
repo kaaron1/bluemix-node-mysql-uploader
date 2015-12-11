@@ -11,6 +11,11 @@
     "express": "3.3.8",
     "hogan-express": "*",
     "request":"*",
-    "mysql": "*"
+    "mysql": "*",
+    "cf-deployment-tracker-client":"*"  
+  },
+  "repository": {
+	    "type": "git",
+	    "url": "https://github.com/ibmecod/bluemix-node-mysql-uploader.git"
   }
 }
